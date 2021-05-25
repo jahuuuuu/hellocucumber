@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
     public static WebDriver driver;
 
-    @Given("^User can view main site (MasterPage)$")
+    @Given("^User can view MasterPage$")
     @BeforeTest
     public void setup() {
         WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
